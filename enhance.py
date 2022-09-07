@@ -1,4 +1,4 @@
-from GFPGAN.gfpgan import GFPGANer
+from GFPGAN.gfpgan.utils import GFPGANer
 
 bg_upsampler = 'realesrgan'
 from basicsr.archs.rrdbnet_arch import RRDBNet
